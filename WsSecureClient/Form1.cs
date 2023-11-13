@@ -94,7 +94,7 @@ namespace WsSecureClient
                 {
                     listBox1.Items.Add("from ws : " + message);
                     string msg = "Accounts data from tally";
-          
+
                 }
 
                 if (message == "Ledgers")
@@ -125,5 +125,9 @@ namespace WsSecureClient
             };
         }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
